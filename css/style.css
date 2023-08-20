@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(53, 201, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: Arial;
+    font-size: 20px;
+    color: black;
+}
+#luga{
+    width:100%; 
+    height:51px;
+    background-color: chartreuse; 
+    position: absolute; 
+    top: 91%;
+    left: 0;
+}
+#cesta{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+#cestarange{
+    width: 91px;
+    height: 44.6px;
+    border-radius: 65%;
+    position: fixed;
+    top: 71.8%;
+    background-color: rgb(255, 145, 0);
+    left: 23.5%;
+    transform: rotate(8deg);
+    
+}
+.player{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 74%;
+    left: 60%;
+}
+#boll{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: orangered;
+    position: absolute;
+    top: 80%;
+    left: 59.8%;
+}
+#boll hr{
+    border-color: black;
+    
+}
+#line1{
+    transform: rotate(90deg);
+    position: relative;
+    top: 15px;
+    margin: 0;
+    padding: 0;
+}
+#line2{
+    
+    transform: rotate(180deg);
+    position: relative;
+    top: 15px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+}
+#cir1{
+    
+    background-color: none;
+    
+    border-color: black;
+    width: 15px;
+    height: 15px;
+    border: 1px;
+    position: relative;
+    top: 5px;
+    left: -2px;
+    border-left-width: 0;
+    margin: 0;
+    border-style:solid ;
+    border-radius: 50% ;
+}
+#cir2{
+    
+    background-color: none;
+    
+    border-color: black;
+    width: 15px;
+    height: 15px;
+    border: 1px;
+    position: relative;
+    top: -12px;
+    right: -22px;
+    border-right: 0;
+    margin: 0;
+    border-style:solid ;
+    border-radius: 50% ;
+}

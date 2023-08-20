@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script
+        src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+        crossorigin="anonymous">
+    </script>
+    <title>BasketBoll game</title>
+</head>
+<body>
+    <div id="cont">cestas:<span id="cescont"></span></div>
+    <div id="cestaALL">
+        <img src="imgs/cesta-sprit1.png" alt="cestas" id="cesta">
+        <div id="cestarange"></div>
+    </div>
+    <div id="playerDiv">
+        
+    </div>
+    <div id="boll">
+        
+        <hr id="line1">
+        <hr id="line2">
+        <div id="cir1"></div>
+        <div id="cir2"></div>
+        
+    </div>
+    <canvas id="luga" ></canvas>
+    <script>
+        $(document).ready(() =>{
+            $('#playerDiv').prepend('<img src="imgs/player-sprite1.png" herf="player" class="player">')
+
+        })
+    </script>
+    
+</body>
+</html>
